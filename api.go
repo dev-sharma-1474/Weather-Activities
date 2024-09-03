@@ -32,7 +32,7 @@ type WeatherAPIInfo struct {
 // fetchWeatherData communicates with api to get the weather data
 func fetchWeatherData(cityName string) (*WeatherAPIResponse, error) {
 
-	url := fmt.Sprintf("https://api.openweathermap.org/data/2.5/weather?q=" + cityName + "&units=imperial&appid=6541b7d812295e29233904dbd1c13a7a")
+	url := fmt.Sprintf("API Here")
 
 	// Make the HTTP GET request
 	response, err := http.Get(url)
